@@ -1,0 +1,26 @@
+.headerMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    background-color: aqua;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav>div{
+    cursor: pointer;
+}
+
+.logo{
+    width: 30px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 530px) {
+    .headerMain{
+        width:530px;
+    }
+  }

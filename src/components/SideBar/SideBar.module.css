@@ -1,0 +1,36 @@
+.sideBarCard{
+    margin-left: 100px;
+    width: 200px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+    height: 40vmax;
+}
+
+li{
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 2560px) {
+    .sideBarCard{
+        width: 250px;
+        height: 25vmax;
+    }
+  }
+
+
+@media only screen and (max-width:1440px) {
+    .sideBarCard{
+        width: 250px;
+        height: 45vmax;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sideBarCard{
+        width: 250px;
+        height: 70vmax;
+    }
+  }
+
+ 
